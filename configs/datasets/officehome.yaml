@@ -1,0 +1,12 @@
+INPUT:
+  SIZE: (224, 224)
+  TRANSFORMS: ["random_flip", "center_crop", "normalize"]
+
+DATASET:
+  NAME: "OfficeHomeMultiTarget"
+  SOURCE_DOMAINS: ["art"]
+  TARGET_DOMAINS: ["clipart", "product", "real_world"]
+
+MODEL:
+  BACKBONE:
+    NAME: "resnet50"

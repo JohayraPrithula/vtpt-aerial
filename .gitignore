@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.ipynb_checkpoints/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Experiment outputs and checkpoints
+output/
+*.pth
+*.pth.tar
+*.pth.tar-*
+events.out.tfevents.*
+log.txt*
+
+# Model weights and data (downloaded separately)
+assets/*.pt
+data/
+*_dataset/
